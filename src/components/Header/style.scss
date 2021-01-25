@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.header__logo {
+  height: 70px;
+  cursor: pointer;
+}
+.header__titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__titles1 {
+  margin-left: 10px;
+  margin-right: 10px;
+  &:hover {
+    color: #00b775;
+  }
+}
+.header__titlesLogout {
+  cursor: pointer;
+  &:hover {
+    color: #00b775;
+  }
+}

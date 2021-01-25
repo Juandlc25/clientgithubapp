@@ -1,0 +1,32 @@
+.github__repo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid lightgray;
+}
+.github__repo > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.github__repo > button:hover {
+  background-color: lightgray;
+}
+.yellow:focus {
+  color: yellow;
+}
+.github__singleRepo > h2 {
+  color: #7d70d6;
+}
+.github__singleRepo > h4 {
+  color: #586069;
+}
+.github__singleRepo > p {
+  color: lightgray;
+}

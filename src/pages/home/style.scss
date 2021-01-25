@@ -1,0 +1,43 @@
+.home__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home__github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.home__github:hover {
+  transform: scale(1.08);
+  color: #00b775;
+}
+
+.home__calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid lightgray;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 450ms;
+}
+.home__calendar:hover {
+  transform: scale(1.08);
+  color: #00b775;
+}
+.MuiSvgIcon-root {
+  margin-right: 10px;
+}
